@@ -4,7 +4,7 @@ import os
 
 
 # Ruta al archivo del modelo
-model_path = ("/opt/render/project/src/models/modelo_adaboost_optimizado (3).pkl", "rb")
+model = load(open("/opt/render/project/src/models/modelo_adaboost_optimizado (3).pkl", "rb"))
 
 
 # Diccionario de clases
